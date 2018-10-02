@@ -10,7 +10,7 @@ deploy:
     secure: $AWS_SECRET_ACCESS_KEY
   local_dir: dpl_cd_upload
   skip_cleanup: true
-  region: us-east-1c
+  region: us-east-1
   on:
     branch: master
   bucket: workshop-level400-s3-martinlan
